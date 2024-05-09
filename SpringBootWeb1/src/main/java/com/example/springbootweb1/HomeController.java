@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
     @RequestMapping("/")
     public String home() {
-        System.out.println("Home method called...");
+        System.out.println("Home method called in jsp...");
         return "index.jsp";
     }
 }
