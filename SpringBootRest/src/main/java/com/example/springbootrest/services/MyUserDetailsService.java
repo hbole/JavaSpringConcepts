@@ -1,8 +1,8 @@
-package com.example.springsecurityex.services;
+package com.example.springbootrest.services;
 
-import com.example.springsecurityex.models.User;
-import com.example.springsecurityex.models.UserPrincipal;
-import com.example.springsecurityex.repositories.UserRepository;
+import com.example.springbootrest.models.User;
+import com.example.springbootrest.models.UserPrincipal;
+import com.example.springbootrest.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

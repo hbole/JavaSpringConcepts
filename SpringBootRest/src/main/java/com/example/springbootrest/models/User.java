@@ -1,4 +1,4 @@
-package com.example.springsecurityex.models;
+package com.example.springbootrest.models;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

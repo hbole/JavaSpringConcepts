@@ -1,4 +1,4 @@
-package com.example.springsecurityex.models;
+package com.example.springbootrest.models;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

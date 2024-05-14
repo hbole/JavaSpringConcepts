@@ -28,7 +28,7 @@ public class JobController {
         return jobService.searchByKeyword(keyword);
     }
 
-    @PostMapping(path = "jobPost", consumes = {"application/xml"})
+    @PostMapping(path = "jobPost")
     public JobPost addJob(@RequestBody JobPost jobPost) {
         jobService.addJob(jobPost);
         return jobService.getJob(jobPost.getPostId());
