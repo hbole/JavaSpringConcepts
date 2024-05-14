@@ -1,4 +1,4 @@
-package com.example.springbootrest.models;
+package com.example.springdatarest.models;
 
 import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;
